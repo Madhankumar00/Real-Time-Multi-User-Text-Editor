@@ -1,6 +1,6 @@
 # Real-Time Multi-User Text Editor
 
-![demo](https://github.com/user-attachments/assets/ae50eb77-4793-43ce-a273-68bd3b12baf9)
+https://github.com/user-attachments/assets/8a188dba-48f2-4995-bbb5-f456e7d46c19
 
 A realtime collaborative rich-text editor using Conflict-free Replicated Data Types (CRDTs) and Google's WebRTC framework. With this editor, several users can edit documents together in realtime with automatic conflict-merge and user-intent preservation. The implementation of the CRDT is using a variant of the RGA (Replicated Growable Arrays) protocol. The RGA protocol is implemented as Timestamped Insertion List (TI List) and guarantees "Eventual Consistency".
 
