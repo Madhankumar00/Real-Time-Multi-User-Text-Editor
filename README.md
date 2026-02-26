@@ -6,8 +6,15 @@ A real-time multi-user text editor using Conflict-free Replicated Data Types (CR
 
 ## Key Features
 
-- Real-time collaborative editing.
-- Automatic merge conflict resolution using CRDTs.
-- Peer to peer architecture using WebRTC.
-- Local-first software implementation.
-- User-intent preservation.
+- Real-time collaborative editing - Multiple users can edit the same document simultaneously with instant updates.
+- Automatic conflict resolution - CRDT ensures concurrent edits merge without overwriting data.
+- Peer-to-peer architecture - Clients communicate directly using WebRTC (no central synchronization bottleneck).
+- Local-first design - Changes are stored locally and synchronized automatically when connected.
+- User-intent preservation - Editing actions are maintained without destroying others’ work.
+
+## 🛠 Tech Stack
+
+**Frontend:** React, Quill.js  
+**Backend:** Node.js, Express.js, Socket.IO  
+**Networking:** WebRTC  
+**Data Sync:** CRDT (RGA)
