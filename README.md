@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Local-first realtime collaborative rich-text editor
 
 ![text editor demo](https://raw.githubusercontent.com/priyangshupal/documentation-images/main/collaborative-text-editor/collaborative-text-editor-demo.gif)
@@ -63,3 +64,6 @@ Now, open two browser tabs to the address [localhost:3000](http://localhost:3000
 ## License
 
 Usage is provided under the [MIT License](https://opensource.org/license/mit). See [LICENSE](./LICENSE) for the full details.
+=======
+# Real-Time-Multi-User-Text-Editor
+>>>>>>> 6b15705b199a97e96be47c2f67e221e61269d241
