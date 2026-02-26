@@ -1,8 +1,0 @@
-# 1️⃣ Start Backend File Server
-npm run --prefix backend fileserver
-
-# 2️⃣ Start WebRTC Signaling Server
-npm run --prefix backend sigserver
-
-# 3️⃣ Start Frontend
-npm run --prefix frontend start
